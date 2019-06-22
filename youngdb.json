@@ -1,0 +1,27 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "username": "osehi",
+            "password": "accepted*01",
+            "email": "accepted*01@gmail.com"
+        }
+    ],
+    "admin": [
+        {
+            "id": 1,
+            "username": "chief",
+            "password": "admin_init01",
+            "email": "thisadmin@gmail.com"
+        }
+    ],
+    "resources": [
+        {
+            "id": 1,
+            "devotional": "leadership devotional",
+            "size": "30pages",
+            "document-link": "",
+            "book-cover": "../img/Stressed-to-Blessed.jpg"
+        }
+    ]
+}

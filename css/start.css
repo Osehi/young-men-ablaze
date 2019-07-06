@@ -2,10 +2,11 @@ body {
     background: url(/young-men-site/img/arnau-soler-472212-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    font-family: 'Acme', sans-serif;
+    
 }
 html {
     height: 100%;
+    
 }
 .content {
     text-align: center;
@@ -16,9 +17,28 @@ h1 {
     color: #120310;
     font-weight: bold;
     font-size: 5em;
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 2px 2px khaki;
 }
 
 h3 {
     color: khaki;
     font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 2px 3px #80150c;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid khaki;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.link {
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    html {height: 100%;}
 }

@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(../img/arnau-soler-472212-unsplash.jpg);
+    background: url('../img/arnau-soler-472212-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

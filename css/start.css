@@ -1,8 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: url(/young-men-site/img/arnau-soler-472212-unsplash.jpg);
+    background: url(../young-men-site/img/arnau-soler-472212-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    
+    background-repeat: no-repeat;
+    min-height: 520px;
+    background-attachment: local;
+    background-origin: border-box;
+    background-clip: border-box;
 }
 html {
     height: 100%;
@@ -42,3 +50,14 @@ hr {
 @media (max-width: 600px) {
     html {height: 100%;}
 }
+
+
+
+@media (max-width: 425px){
+    html {height: 100%;}
+    h1{font-size: 3em;}
+    hr {width: 200px;}
+}
+
+
+
